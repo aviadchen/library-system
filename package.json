@@ -1,0 +1,21 @@
+{
+    "name": "library-system",
+    "version": "1.0.0",
+    "description": "A simple library system using Lodash pluck method",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "mocha"
+    },
+    "dependencies": {
+      "lodash": "^3.10.1"
+    },
+    "devDependencies": {
+      "chai": "^4.3.6",
+      "mocha": "^10.2.0",
+      "sinon": "^15.0.1"
+    },
+    "author": "Aviad Chen",
+    "license": "MIT"
+  }
+  
