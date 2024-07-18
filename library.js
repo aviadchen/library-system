@@ -15,7 +15,7 @@ function filterAndExtractBookInfo(books, genre, minYear, properties) {
   });
 
   // Extract the titles of the filtered books
-  const bookTitles = _.pluck(filteredBooks, 'title');
+  const bookTitles = _.map(filteredBooks, 'title');
 
   return {
     extractedInfo,
